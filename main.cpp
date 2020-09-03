@@ -6,4 +6,5 @@ using namespace std;
 
 int main() {
 	cout << "hello from main!\n";
+	cout << "Enter a filename:\n";
 }
