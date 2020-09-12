@@ -5,10 +5,10 @@
 using namespace std;
 
 int main() {
-	cout << "Enter a filename:\n";
+	cout << "enter a filename\n";
 	string filename;
 	cin >> filename;
-	cout << "Enter a column:\n";
+	cout << "enter a column name\n";
 	string col;
 	cin >> col;
 	cout << "reading column " + col + " from " + filename + "\n";
@@ -16,23 +16,23 @@ int main() {
 	vector <double> data = extract_column(filename, col);
 	sort(data);
 
-	cout << "\nSummary (value: frequency)" << endl;
+	cout << "Summary (value: frequency)" << endl;
 	for (size_t x = 0; x < summarize(data).size(); x++)
 	{
 		cout << summarize(data)[x][0] << ": " << summarize(data)[x][1] << endl;
 	}
-	cout << "\nCount = " << count(data) << endl;
-	cout << "Sum = " << sum(data) << endl;
-	cout << "Mean = " << mean(data) << endl;
-	cout << "Standard Deviation = " << stdev(data) << endl;
-	cout << "Median = " << median(data) << endl;
-	cout << "Mode = " << mode(data) << endl;
-	cout << "Min = " << min(data) << endl;
-	cout << "Max = " << max(data) << endl;
-	cout << "0th percentile = " << percentile(data, 0) << endl;
-	cout << "25th percentile = " << percentile(data, 0.25) << endl;
-	cout << "50th percentile = " << percentile(data, 0.5) << endl;
-	cout << "75th percentile = " << percentile(data, 0.75) << endl;
+	cout << "\ncount = " << count(data) << endl;
+	cout << "sum = " << sum(data) << endl;
+	cout << "mean = " << mean(data) << endl;
+	cout << "stdev = " << stdev(data) << endl;
+	cout << "median = " << median(data) << endl;
+	cout << "mode = " << mode(data) << endl;
+	cout << "min = " << min(data) << endl;
+	cout << "max = " << max(data) << endl;
+	cout << "  0th percentile = " << percentile(data, 0) << endl;
+	cout << " 25th percentile = " << percentile(data, 0.25) << endl;
+	cout << " 50th percentile = " << percentile(data, 0.5) << endl;
+	cout << " 75th percentile = " << percentile(data, 0.75) << endl;
 	cout << "100th percentile = " << percentile(data, 1.0) << endl;
 
 }
