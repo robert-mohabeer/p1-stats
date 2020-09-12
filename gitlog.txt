@@ -1,0 +1,35 @@
+commit b48bb019f49c153eb82bc323cd18b2305e0d3e39
+Author: mohabeer <mohabeer@umich.edu>
+Date:   Fri Sep 11 14:13:17 2020 -0400
+
+    9/11/2020
+
+commit b671198a9045f0c489988b72e2754063519f712a
+Author: mohabeer <mohabeer@umich.edu>
+Date:   Thu Sep 3 18:02:01 2020 -0400
+
+    9/3/2020 commit
+
+commit 294b7e9825d4a01f7ce47e7692584b1aa2f63656
+Author: mohabeer <mohabeer@umich.edu>
+Date:   Tue Sep 1 01:35:11 2020 -0400
+
+    Added quick start to README
+
+commit 3de8b39344b46e3b9e836eccea6aa3d7a0b8b92b
+Author: mohabeer <mohabeer@umich.edu>
+Date:   Tue Sep 1 01:31:08 2020 -0400
+
+    Added README
+
+commit 253233e9f919c9f14c6a264a382171ab7f1aa57a
+Author: mohabeer <mohabeer@umich.edu>
+Date:   Tue Sep 1 00:45:43 2020 -0400
+
+    Added README
+
+commit a23c84b29340c8cab4bd40072091ce6917a7924e
+Author: mohabeer <mohabeer@umich.edu>
+Date:   Tue Sep 1 00:25:27 2020 -0400
+
+    Initial commit.  Starter files with function stubs.

@@ -1,0 +1,22 @@
+/home/mohabeer/p1-stats-copy
+-bash-4.2$ echo "Hello mohabeer"
+Hello mohabeer
+-bash-4.2$ hostname
+caen-vnc-vm10.engin.umich.edu
+-bash-4.2$ make clean
+rm -rvf *.exe *~ *.out *.dSYM *.stackdump
+removed 'main.exe'
+removed 'stats_public_test.exe'
+removed 'stats_tests.exe'
+removed 'main_test.out'
+-bash-4.2$ make stats_tests.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g stats_tests.cpp stats.cpp p1_library.cpp -o stats_tests.exe
+-bash-4.2$ make stats_public_test.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g stats_public_test.cpp stats.cpp p1_library.cpp -o stats_public_test.exe
+-bash-4.2$ make main.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g main.cpp stats.cpp p1_library.cpp -o main.exe
+-bash-4.2$ whoami
+mohabeer
+-bash-4.2$ whoami | sha1sum
+6340a794763af6679c3f5be6eea3f6324c6190b5  -
+-bash-4.2$

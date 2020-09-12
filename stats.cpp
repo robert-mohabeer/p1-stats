@@ -134,7 +134,15 @@ double stdev(vector<double> v) {
 }
 
 double percentile(vector<double> v, double p) {
-	assert(!v.empty());
-
-	return 0;  // avoid Visual Studio error "function must return a value"
+	assert(!v.empty() && p >= 0 && p <=1);
+	int index = 0;
+	if (p == 1)
+	{
+		index = v.size() - 1;
+	}
+	else if (p != 0)
+	{
+		index = ceil(p * v.size()) - 1;
+	}
+	return v[index];  // avoid Visual Studio error "function must return a value"
 }

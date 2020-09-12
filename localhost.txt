@@ -1,0 +1,14 @@
+supernova@LAPTOP-GILOM71J:/mnt/c/Users/rober/Documents/School/EECS 280/eecs280/p1-stats$ echo "Hello mohabeer"
+Hello mohabeer
+supernova@LAPTOP-GILOM71J:/mnt/c/Users/rober/Documents/School/EECS 280/eecs280/p1-stats$ hostname
+LAPTOP-GILOM71J
+supernova@LAPTOP-GILOM71J:/mnt/c/Users/rober/Documents/School/EECS 280/eecs280/p1-stats$ make clean
+rm -rvf *.exe *~ *.out *.dSYM *.stackdump
+removed 'stats_tests.exe'
+supernova@LAPTOP-GILOM71J:/mnt/c/Users/rober/Documents/School/EECS 280/eecs280/p1-stats$ make stats_tests.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g stats_tests.cpp stats.cpp p1_library.cpp -o stats_tests.exe
+supernova@LAPTOP-GILOM71J:/mnt/c/Users/rober/Documents/School/EECS 280/eecs280/p1-stats$ make stats_public_test.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g stats_public_test.cpp stats.cpp p1_library.cpp -o stats_public_test.exe
+supernova@LAPTOP-GILOM71J:/mnt/c/Users/rober/Documents/School/EECS 280/eecs280/p1-stats$ make main.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g main.cpp stats.cpp p1_library.cpp -o main.exe
+supernova@LAPTOP-GILOM71J:/mnt/c/Users/rober/Documents/School/EECS 280/eecs280/p1-stats$

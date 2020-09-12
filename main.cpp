@@ -29,5 +29,10 @@ int main() {
 	cout << "Mode = " << mode(data) << endl;
 	cout << "Min = " << min(data) << endl;
 	cout << "Max = " << max(data) << endl;
+	cout << "0th percentile = " << percentile(data, 0) << endl;
+	cout << "25th percentile = " << percentile(data, 0.25) << endl;
+	cout << "50th percentile = " << percentile(data, 0.5) << endl;
+	cout << "75th percentile = " << percentile(data, 0.75) << endl;
+	cout << "100th percentile = " << percentile(data, 1.0) << endl;
 
 }
